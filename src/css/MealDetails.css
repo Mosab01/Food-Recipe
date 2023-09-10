@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.MealDetails {
+  background-color: #f2deba;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+}
+
+#header-1 {
+  color: #4e6c50;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#thumbnail {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+header-2 {
+  color: #4e6c50;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#ingredient-mealDetails {
+  margin-bottom: 10px;
+  color: #4e6c50;
+}
+
+#instruction {
+  color: #4e6c50;
+}
+
+#header_details {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+iframe {
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  #header_details {
+    display: flex;
+    flex-direction: column;
+  }
+}
